@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap script  -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark text-light">
+
+<!-- HERO SECTION -->
+<div class="container-fluid p-0 vh-100 d-flex flex-column justify-content-between"
+style="background-image:url('https://mustafaselman.github.io/001-netflix-surveyform/background_image.jpg');
+background-size:cover;
+background-position:center;">
+
+    <!-- NAVBAR inside background -->
+    <nav class="navbar navbar-dark px-4">
+        <a class="navbar-brand text-danger fw-bold fs-3">NETFLIX</a>
+
+        <div class="d-flex gap-2">
+            <select class="form-select form-select-sm w-auto bg-dark text-light border-light">
+                <option>English</option>
+                <option>Hindi</option>
+            </select>
+
+            <button class="btn btn-danger">Sign In</button>
+        </div>
+    </nav>
+
+
+    <!-- CENTER CONTENT -->
+    <div class="container text-center">
+
+        <h1 class="display-4 fw-bold">
+            Unlimited movies, shows, and more
+        </h1>
+
+        <p class="fs-5">
+            Starts at ₹149. Cancel anytime.
+        </p>
+
+        <p>
+            Ready to watch? Enter your email to create or restart your membership.
+        </p>
+
+        <div class="row justify-content-center mt-3">
+
+            <div class="col-md-4 mb-2">
+                <input type="email"
+                class="form-control form-control-lg"
+                placeholder="Email address">
+            </div>
+
+            <div class="col-md-3">
+                <button class="btn btn-danger btn-lg w-100">
+                    Get Started
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div></div>
+
+</div>
+
+<!-- Trending Section -->
+<div class="container py-4">
+
+<h3>Trending Now</h3>
+
+<div class="row">
+
+<div class="col-md-2 col-6 mb-3">
+ <img src="https://tse4.mm.bing.net/th/id/OIP.8lnY03OdsNHWlNCKvqHyFwHaK9?pid=Api&P=0&h=180" class="img-fluid rounded">
+</div>
+
+<div class="col-md-2 col-6 mb-3">
+<img src="https://tse4.mm.bing.net/th/id/OIP.wP_y19-53lqJz-Zva6mhiwHaK9?pid=Api&P=0&h=180" class="img-fluid rounded">
+</div>
+
+<div class="col-md-2 col-6 mb-3">
+<img src="https://tse3.mm.bing.net/th/id/OIP.REmYOYn7cYpauKtuG5yA3wHaJQ?pid=Api&P=0&h=180" class="img-fluid rounded">
+</div>
+
+<div class="col-md-2 col-6 mb-3">
+<img src="https://tse2.mm.bing.net/th/id/OIP.Og1jP5zFpO-kbEr-DOe79wHaLH?pid=Api&P=0&h=180" class="img-fluid rounded">
+</div>
+
+<div class="col-md-2 col-6 mb-3">
+<img src="https://tse4.mm.bing.net/th/id/OIP.nJxvWnf5geLbJ0_wK6QNnwHaJQ?pid=Api&P=0&h=180" class="img-fluid rounded">
+</div>
+
+<div class="col-md-2 col-6 mb-3">
+<img src="https://tse2.mm.bing.net/th/id/OIP.OIiEXMdgiKWoDhphqx0yqQHaJP?pid=Api&P=0&h=180" class="img-fluid rounded">
+</div>
+
+</div>
+
+</div>
+
+<!-- Features -->
+<div class="container py-4">
+
+<h3>More reasons to join</h3>
+
+<div class="row">
+
+<div class="col-md-3 mb-3">
+<div class="card bg-secondary text-light">
+<div class="card-body">
+<h5>Enjoy on your TV</h5>
+<p>Watch on smart TVs, PlayStation, Xbox and more.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-3">
+<div class="card bg-secondary text-light">
+<div class="card-body">
+<h5>Download shows</h5>
+<p>Save your favourites easily and watch offline.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-3">
+<div class="card bg-secondary text-light">
+<div class="card-body">
+<h5>Watch everywhere</h5>
+<p>Stream on phone, tablet, laptop and TV.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-3">
+<div class="card bg-secondary text-light">
+<div class="card-body">
+<h5>Create profiles</h5>
+<p>Kids profiles available for safe viewing.</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- FAQ -->
+<div class="container py-5">
+
+<h3>Frequently Asked Questions</h3>
+
+<div class="accordion" id="faq">
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">
+What is Netflix?
+</button>
+</h2>
+
+<div id="q1" class="accordion-collapse collapse show">
+<div class="accordion-body bg-dark text-light">
+Netflix is a streaming service with movies and TV shows.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">
+How much does Netflix cost?
+</button>
+</h2>
+
+<div id="q2" class="accordion-collapse collapse">
+<div class="accordion-body bg-dark text-light">
+Plans start from ₹149.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q3">
+Where can I watch?
+</button>
+</h2>
+
+<div id="q3" class="accordion-collapse collapse">
+<div class="accordion-body bg-dark text-light">
+You can watch on mobile, laptop, or TV.
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="container-fluid bg-dark text-secondary py-5">
+
+<div class="container">
+
+<p>
+Questions? Call <a href="#" class="text-secondary">000-800-919-1743</a>
+</p>
+
+<div class="row mt-4">
+
+<div class="col-md-3 col-6 mb-3">
+<p><a href="#" class="text-secondary">FAQ</a></p>
+<p><a href="#" class="text-secondary">Investor Relations</a></p>
+<p><a href="#" class="text-secondary">Privacy</a></p>
+<p><a href="#" class="text-secondary">Speed Test</a></p>
+</div>
+
+<div class="col-md-3 col-6 mb-3">
+<p><a href="#" class="text-secondary">Help Centre</a></p>
+<p><a href="#" class="text-secondary">Jobs</a></p>
+<p><a href="#" class="text-secondary">Cookie Preferences</a></p>
+<p><a href="#" class="text-secondary">Legal Notices</a></p>
+</div>
+
+<div class="col-md-3 col-6 mb-3">
+<p><a href="#" class="text-secondary">Account</a></p>
+<p><a href="#" class="text-secondary">Ways to Watch</a></p>
+<p><a href="#" class="text-secondary">Corporate Information</a></p>
+<p><a href="#" class="text-secondary">Only on Netflix</a></p>
+</div>
+
+<div class="col-md-3 col-6 mb-3">
+<p><a href="#" class="text-secondary">Media Centre</a></p>
+<p><a href="#" class="text-secondary">Terms of Use</a></p>
+<p><a href="#" class="text-secondary">Contact Us</a></p>
+</div>
+
+</div>
+
+<!-- Language dropdown -->
+
+<select class="form-select form-select-sm bg-dark text-light border-secondary w-auto mt-3">
+<option>English</option>
+<option>हिन्दी</option>
+</select>
+
+<p class="mt-3">
+Netflix India
+</p>
+
+<p class="small">
+This page is protected by Google reCAPTCHA to ensure you're not a bot.
+</p>
+
+</div>
+
+</div>
+ 
+</body>
+</html>
